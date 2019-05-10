@@ -8,4 +8,7 @@
   CodePileline is not triggered when github is updated, but you won't get a prompt that a new webhook will be added from AWS dashboard when you resave the same codepipeline.
 
 4.resave codepipeline after deregister-webhook.
+  CodePileline is not triggered when github is updated, you need register-webhook-with-third-party.
+
+5.register-webhook
 
