@@ -5,4 +5,7 @@
   Post a new request to AWS.
 
 3.aws codepipeline deregister-webhook-with-third-party --webhook-name AWSCodePipelineTutorial--Source--TinkLabsAWSCodePipelineTuto--1513030584
+  CodePileline is not triggered when github is updated, but you won't get a prompt that a new webhook will be added from AWS dashboard when you resave the same codepipeline.
+
+4.resave codepipeline after deregister-webhook.
 
