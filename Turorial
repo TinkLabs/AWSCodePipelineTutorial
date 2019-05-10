@@ -2,4 +2,7 @@
   CodePileline is not triggered when github is updated. 
 
 2.check github webhook recent deliveries.
+  Post a new request to AWS.
+
+3.aws codepipeline deregister-webhook-with-third-party --webhook-name AWSCodePipelineTutorial--Source--TinkLabsAWSCodePipelineTuto--1513030584
 
