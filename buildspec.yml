@@ -7,7 +7,7 @@ phases:
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - REPOSITORY_URI=204328232493.dkr.ecr.ap-southeast-1.amazonaws.com/devops/aws-tutorial
-      - IMAGE=$REPOSITORY_URI:nginx
+      - IMAGE=$REPOSITORY_URI:nginx-`date +%Y%m%d%H%M%S`
   build:
     commands:
       - echo Build started on `date`
