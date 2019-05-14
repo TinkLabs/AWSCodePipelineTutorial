@@ -19,7 +19,7 @@ phases:
       - echo Pushing the Docker images...
       - docker push $IMAGE
       - echo Writing image definitions file...
-      - printf '[{"name":"AWSCodePipelineTurorial","imageUri":"%s"}]' $IMAGE > imagedefinitions.json
+      - printf '[{"name":"nginx","imageUri":"%s"}]' $IMAGE > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json
 
